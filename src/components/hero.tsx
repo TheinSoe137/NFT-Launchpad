@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { cn } from "@/src/lib/utils";
+
 import { BackgroundGradientAnimation } from "../components/ui/background-gradient-animation";
 import  Minter from "@/minting_card/src/components/Minter.js"
 // import "@/minting_card/src/styles/styles.css";
