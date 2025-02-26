@@ -277,11 +277,11 @@ function Minter() {
             ) : null}
           </div>
         ) : (
-          <div className="flex justify-around w-full max-w-4xl mx-auto bg-gray-200 p-4">
+          <div className="max-w-2xl text-sm md:text-2xl mt-8 text-center dark:text-neutral-200" style={{ color: "#7f1d1d" }}>
             <p style={{ color: "var(--statusText)", textAlign: "center" }}>
               {mintInfo.supply}/{contract.total_supply}
             </p>
-            <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+            <p className="max-w-2xl text-sm md:text-2xl mt-8 text-center dark:text-neutral-200" style={{ color: "#7f1d1d" }}>
               We've sold out! .You can still buy and trade the {contract.name}{" "}
               on marketplaces such as MagicEden.
             </p>
