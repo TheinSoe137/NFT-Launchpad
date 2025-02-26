@@ -21,7 +21,7 @@ export function Hero() {
             width="1000"
             alt="Avatar"
             src="/coronad-nft.png"
-            className="h-250 w-250  w-1/2 sm:w-1/2 md:w-3/4 lg:w-full rounded-lg object-cover"
+            className="h-250 w-250  w-1/2 sm:w-1/2 md:w-3/4 lg:w-3/4 rounded-lg object-cover"
           />
         
         </div>
